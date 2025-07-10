@@ -27,7 +27,12 @@ print(a)
 a.append(4)
 print(a)
 
+print("="*50)
+
 # 순서대로 정렬: sort()
+print(b)
+b.sort()
+print(b)
 # 위치 반환: index(x)
 # 요소 삽입: insert(a, b) -> a번째 위치에 b 삽입
 # 요소 제거: remove(x) -> 리스트에서 첫번째로 나오는 x를 삭제
