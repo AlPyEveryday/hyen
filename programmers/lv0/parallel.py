@@ -37,3 +37,7 @@ print(solution(dots))
 # 개선가능한 점
 # dots를 중첩언패킹 [x1,y1], [x2, y2], [x3, y3], [x4, y4] = dots  >> 통해서 더 깔끔하게 만들수 있음
 # a,b,c에는 각 직선이 평행한지 여부 (True, False)가 저장됨
+
+
+
+
