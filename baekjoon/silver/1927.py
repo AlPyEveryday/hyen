@@ -1,12 +1,14 @@
+import heapq
+import sys
+
+input = sys.stdin.readline
 n = int(input())
-A = []
+heap = []
 for i in range(n):
     x = int(input())
     if x == 0:
-        if len(A) > 0: 
-            print(A[0])
-            del A[0]
+        if heap: 
+            print(heapq.heappop(heap))
         else: print(0)
     elif x > 0:
-        A.append(x)
-        A.sort()
+        heapq.heappush(heap, x)
